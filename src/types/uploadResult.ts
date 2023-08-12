@@ -1,4 +1,4 @@
-export type uploadResult = {
+export type UploadResult = {
     info: {
         public_id: string;
     };

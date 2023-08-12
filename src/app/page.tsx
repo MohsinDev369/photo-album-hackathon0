@@ -1,10 +1,10 @@
 "use client";
 import { CldImage } from "next-cloudinary";
 import { CldUploadButton } from "next-cloudinary";
+import type { UploadResult } from "@/types/uploadResult";
 import { useState } from "react";
-import type { uploadResult } from "@/types/uploadResult";
 export default function Home() {
-  const [imageId, setImageId] = useState("");
+    const [imageId, setImageId] = useState("");
   return (
     <>
       <CldUploadButton
@@ -20,6 +20,6 @@ export default function Home() {
           alt="Description of my image"
         />
       )}
-  </>
+    </>
   );
 }
