@@ -2,12 +2,7 @@
 import { CldImage } from "next-cloudinary";
 import { CldUploadButton } from "next-cloudinary";
 import { useState } from "react";
-type uploadResult = {
-  info: {
-    public_id: string;
-  };
-  event: "success";
-};
+import type { uploadResult } from "@/types/uploadResult";
 export default function Home() {
   const [imageId, setImageId] = useState("");
   return (
