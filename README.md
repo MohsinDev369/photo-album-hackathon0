@@ -1,4 +1,7 @@
-## Getting Started
+## Preview
+![alt text](./public/preview.jpg)
+
+#### Getting Started
 
 First, run the development server:
 
