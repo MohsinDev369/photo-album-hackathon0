@@ -27,6 +27,7 @@ async function page() {
             <CloudinaryImage
               key={result.public_id}
               src={result.public_id}
+              publicId={result.public_id}
               alt="any image"
               width="400"
               height="300"
