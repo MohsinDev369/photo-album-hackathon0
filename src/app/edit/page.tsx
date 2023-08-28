@@ -87,6 +87,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
+              // @ts-ignore
               blur="800"
               alt="some image"
             />
@@ -97,6 +98,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
+              // @ts-ignore
               grayscale
               alt="some image"
             />
@@ -107,6 +109,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
+              // @ts-ignore
               pixelate
               alt="some image"
             />
