@@ -11,12 +11,13 @@ export default function UploadButton() {
   return (
     <Button asChild>
       <CldUploadButton
-        onUpload={(result: UploadResult) => {
+        onUpload={(result: any) => {
           setTimeout(() => {
             router.refresh();
+            console.log("refreshed");
           }, 2000);
         }}
-        uploadPreset="giomsr4s"
+        uploadPreset="bd7g6gou"
       >
         <div className="flex gap-2">
           <svg
